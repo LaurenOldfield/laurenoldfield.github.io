@@ -1,0 +1,142 @@
+---
+layout: null
+title: Alexander Titus | Biomedical Data Science & Molecular Epidemiology
+description: Molecular biology research using bioinformatics, biostatistics, machine learning, deep learning
+sitemap:
+priority: 1.0
+lastmod: 2017-12-28
+changefreq: weekly
+---
+<!DOCTYPE HTML>
+
+<html>
+	
+<head>
+{% include head.html %}
+</head>
+
+<!-- Body -->
+<body class="is-loading">
+
+<!-- Wrapper -->
+<div id="wrapper" class="fade-in">
+
+<!-- Intro -->
+<div id="intro">
+<h1>{{site.title}}</h1>
+<h2>Biomedical Data Science, Molecular Epidemiology, & Learning Algorithms</h2>
+<p>PhD candidate in <a href="https://dartmouth.edu/~qbs" target="_blank">Quantitative Biomedical Sciences</a> <br />
+   in the <a href="https://www.christensen-lab.com/" target="_blank">Christensen Molecular Epidemiology Lab</a> <br />
+   at the <a href="https://graduate.dartmouth.edu/" target="_blank">School of Graduate and Advanced Studies at Dartmouth College</a></p>
+
+<ul class="actions">
+<li><a href="#header" class="button icon solo fa-arrow-down scrolly">Continue</a></li>
+</ul>
+	
+</div>
+
+<!-- Header -->
+<header id="header">
+<a href="{{ "/" | absolute_url }}" class="logo">{{site.title}}</a>
+</header>
+
+<!-- Nav -->
+<nav id="nav">
+
+{% include nav.html %}
+
+<ul class="icons">
+<li><a href="https://twitter.com/{{site.twitter}}" class="icon fa-twitter" rel="nofollow"><span class="label">Twitter</span></a></li>
+<!--<li><a href="https://facebook.com/{{site.facebook}}" class="icon fa-facebook" rel="nofollow"><span class="label">Facebook</span></a></li>-->
+<li><a href="https://instagram.com/{{site.instagram}}" class="icon fa-instagram" rel="nofollow"><span class="label">Instagram</span></a></li>
+<li><a href="https://github.com/{{site.github}}" class="icon fa-github" rel="nofollow"><span class="label">GitHub</span></a></li>
+</ul>
+</nav>
+
+<!-- Main -->
+<div id="main">
+<!-- Featured Post -->
+<article class="post featured">
+<header class="major">
+<!--<h2><a href="#">Massively is a versatile Jekyll theme</a></h2>-->
+<h2>Welcome to the research page of Alexander Titus</h2>
+<p>My research focuses on the molecular underpinnings of cancer, <br />
+the epigenetic relationships between exposures and diseases, <br />
+and computational methods to tie everything together.</p>
+</header>
+	
+<!--<a href="#" class="image main"><img src="{{ "/images/pic01.jpg" | absolute_url }}" alt="" /></a>-->
+<a class="image main"><img src="{{ "/images/dartmouth_baker_night_2015.jpg" | absolute_url }}" alt="" /></a>
+
+<!--<p>Regardless of your website's function, the homepage is what brings the user in.
+If it's anything short of intriguing, captivating, or just plain cool, you're out of luck and you might deter some visitors.</p>
+
+<p>Your homepage must clearly describe what your site is about.
+Having engaging content will in this manner enable you to offer and it will make your customers more inclined to purchase from you. Content is a way to position your organization in the correct place for your clients to discover you.
+</p>
+	
+<p>
+In this manner, content in itself is a standout amongst the best promoting apparatuses in your whole advertising toolbox! Rather than making your content around your promoting technique, it's limitlessly more productive to fabricate your showcasing around your content.
+</p>-->
+
+</article>
+	
+<!-- Publications -->
+<center><h3>Recent Publications</h3></center>
+
+<section class="post">
+	
+{% for publication in site.data.publications limit:4 %}
+    <strong>{{publication.title}}</strong><br />
+    {{publication.authors}} ({{publication.year}}) {{publication.title}}. <em>{{publication.venue}}</em>. ID: <a href="{{publication.url}}" target="_blank">{{ publication.id }}</a><br /><br />
+{% endfor %}
+						 
+</section>	
+	
+<!-- Posts -->
+<section class="posts">
+{% for post in site.posts limit:4 %}
+<!--{% assign mod3 = forloop.index | modulo: 3 %}-->
+<article>
+<header>
+<span class="date">{{ post.date | date_to_string }}</span>
+<h2><a href="{{ post.url | absolute_url }}">{{ post.title }}</h2>
+</header>
+<a href="{{ post.url | absolute_url }}" class="image fit"><img src="{{ post.image | absolute_url }}" alt="" /></a>
+<p>{{ post.excerpt }}</p>
+<ul class="actions">
+<li><a href="{{ post.url | absolute_url }}" class="button">Full Story</a></li>
+</ul>
+</article>
+<!--{% if mod3 == 0 %}
+<article>
+<header>
+<h2><a href="#">Sponsored</h2>
+</header>
+
+</article>
+{% endif %}-->
+{% endfor %}
+
+</section>
+
+<!-- Footer -->
+<footer>
+<ul class="actions">
+<li><a href="{{ "/blog/" | absolute_url }}" class="button">Blog</a></li>
+</ul>
+</footer>
+
+</div>
+
+<!-- Footer -->
+{% include foot.html %}
+
+</div>
+
+<!-- Scripts -->
+{% include scripts-main.html %}
+{% include tracking.html %}
+
+</body>
+</html>
