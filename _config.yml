@@ -1,5 +1,5 @@
 # Site
-title:              Alexander Titus
+title:              Alexander Titus, PhD
 bio:                'Biomedical Data Scientist & Molecular Epidemiologist'
 description:        "Quantitative biomedical sciences, cancer biology, and learning algorithms."
 locale:             en_US
@@ -51,7 +51,7 @@ disqus_shortname:   default
 
 # Social
 analytics-id:       UA-77527373-1
-twitter:            _alexandertitus
+twitter:            al3xandertitus
 #facebook:           default
 instagram:          alexander.titus
 github:             alexandertitus
