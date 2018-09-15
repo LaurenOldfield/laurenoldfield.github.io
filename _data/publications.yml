@@ -1,4 +1,36 @@
-- ref: 11
+- ref: 16
+  authors: "<strong>Titus AJ</strong>, Flower A, Hagerty P, Gamble P, Lewis C, Stavish T, O’Connell KP, Shipley G, Rogers SM"
+  year: "2018"
+  title: "SIG-DB: leveraging homomorphic encryption to securely interrogate privately held genomic databases"
+  venue: "PLOS Computational Biology"
+  url: "https://www.ncbi.nlm.nih.gov/pubmed/30180163/"
+  id:  "PMID: 30180163"
+
+- ref: 15
+  authors: "Gitajn IL, <strong>Titus AJ</strong>, Tosteson AN, Sprague S, Bhandari JK, Petrisor B, Swiontkowski M, Slobogean G"
+  year: "2018"
+  title: "Deficits in preference-based health-related quality of life after complications associated with tibial fracture"
+  venue: "The Bone & Joint Journal"
+  url: "https://www.ncbi.nlm.nih.gov/pubmed/30168778"
+  id:  "PMID: 30168778"
+
+- ref: 14
+  authors: "Henderson ER, <strong>Titus AJ</strong>, Keeney BJ, Goodney PP, Lurie JD, Ibrahim SA"
+  year: "2018"
+  title: "Military Service and Decision Quality in the Management of Knee Osteoarthritis"
+  venue: "Military Medicine"
+  url: "https://doi.org/10.1093/milmed/usy104"
+  id:  "DOI: 10.1093/milmed/usy104"
+
+- ref: 13
+  authors: "Brooks JM, <strong>Titus AJ</strong>, Bruce ML, Orzechowski NM, Mackenzie TA, Bartels SJ, Batsis JA"
+  year: "2018"
+  title: "Depression and Handgrip Strength Among US Adults Aged 60 Years and Older from Nhanes 2011-2014"
+  venue: "The Journal of Nutrition, Health & Aging"
+  url: "https://www.doi.org/10.1007/s12603-018-1041-5"
+  id:  "DOI: 10.1007/s12603-018-1041-5"
+
+- ref: 12
   authors: "<strong>Titus AJ</strong>*, Kishore S*, Stavish T, Rogers SM, Ni K"
   year: "2018"
   title: "PySEAL: A Python wrapper implementation of the SEAL homomorphic encryption library"
@@ -6,13 +38,21 @@
   url: "https://arxiv.org/abs/1803.01891"
   id:  "arXiv: 1803.01891"
 
-- ref: 10
-  authors: "<strong>Titus AJ</strong>, Bobak CA, Christensen BC"
+- ref: 11
+  authors: "Crow RS, Lohman MC, <strong>Titus AJ</strong>, Bruce ML, Mackenzie TA, Bartels SJ, Batsis JA"
   year: "2018"
-  title: "A New Dimension of Breast Cancer Epigenetics: Applications of Variational Autoencoders with DNA Methylation"
-  venue: "Proceedings of the 11th International Joint Conference on Biomedical Engineering Systems and Technologies - BIOINFORMATICS"
-  url: "http://doi.org/10.5220/0006636401400145"
-  id:  "DOI: 10.5220/0006636401400145"
+  title: "Mortality Risk along the Frailty Spectrum: Data from NHANES 1999-2004"
+  venue: "Journal of the American Geriatrics Society"
+  url: "https://www.ncbi.nlm.nih.gov/pubmed/29368330"
+  id:  "PMID: 29368330"
+
+- ref: 10
+  authors: "Wilkins OM, <strong>Titus AJ</strong>, Salas LA, Gui J, Eliot M, Butler RA, Sturgis EM, Li G, Kelsey KT, Christensen BC"
+  year: "2018"
+  title: "MicroRNA-related genetic variants associated with overall survival of head and neck squamous cell carcinoma"
+  venue: "Cancer Epidemiology and Prevention Biomarkers"
+  url: "https://www.ncbi.nlm.nih.gov/pubmed/29880533"
+  id:  "PMID: 29880533"
 
 - ref: 09
   authors: "Bobak CA, <strong>Titus AJ</strong>, Hill JE"
@@ -23,14 +63,22 @@
   id:  "DOI: 10.5220/0006752406950701"
 
 - ref: 08
-  authors: "Crow RS, Lohman MC, <strong>Titus AJ</strong>, Bruce ML, Mackenzie TA, Bartels SJ, Batsis JA"
+  authors: "<strong>Titus AJ</strong>, Bobak CA, Christensen BC"
   year: "2018"
-  title: "Mortality Risk along the Frailty Spectrum: Data from NHANES 1999-2004"
-  venue: "Journal of the American Geriatrics Society"
-  url: "https://www.ncbi.nlm.nih.gov/pubmed/29368330"
-  id:  "PMID: 29368330"
+  title: "A New Dimension of Breast Cancer Epigenetics: Applications of Variational Autoencoders with DNA Methylation"
+  venue: "Proceedings of the 11th International Joint Conference on Biomedical Engineering Systems and Technologies - BIOINFORMATICS"
+  url: "http://doi.org/10.5220/0006636401400145"
+  id:  "DOI: 10.5220/0006636401400145"
 
 - ref: 07
+  authors: "Qian DC, Molfese DL, Jin JL, <strong>Titus AJ</strong>, He Y, Vaissie M, Li Y, Salas R, Amos CI"
+  year: "2017"
+  title: "Genome-wide imaging association study implicates functional activity and glial homeostasis of the caudate in smoking addiction"
+  venue: "BMC Genomics"
+  url: "https://www.ncbi.nlm.nih.gov/pubmed/?term=28927378"
+  id:  "PMID: 28927378"
+
+- ref: 06
   authors: "<strong>Titus AJ</strong>*, Way GP*, Johnson KC, Christensen BC"
   year: "2017"
   title: "Deconvolution of DNA methylation identifies differentially methylated gene regions on 1p36 across breast cancer subtypes"
@@ -38,7 +86,7 @@
   url: "https://www.ncbi.nlm.nih.gov/pubmed/?term=28912426"
   id:  "PMID: 28912426"
 
-- ref: 06
+- ref: 05
   authors: "<strong>Titus AJ</strong>, Gallimore R, Salas LA, Christensen BC"
   year: "2017"
   title: "Cell-type deconvolution from DNA methylation: a review of recent applications"
@@ -46,21 +94,13 @@
   url: "https://www.ncbi.nlm.nih.gov/pubmed/?term=28977446"
   id:  "PMID: 28977446"
 
-- ref: 05
+- ref: 04
   authors: "Wilkins OM, <strong>Titus AJ</strong>, Gui J, Eliot M, Butler RA, Sturgis EM, Li G, Kelsey KT, Christensen BC"
   year: "2017"
-  title: "MicroRNA-related Single Nucleotide Polymorphisms are Associated with Susceptibility to Head and Neck Squamous Cell Carcinoma"
+  title: "Genome-scale identification of microRNA-related SNPs associated with risk of head and neck squamous cell carcinoma"
   venue: "Carcinogenesis"
   url: "https://www.ncbi.nlm.nih.gov/pubmed/?term=28582492"
   id:  "PMID: 28582492"
-
-- ref: 04
-  authors: "Qian DC, Molfese DL, Jin JL, <strong>Titus AJ</strong>, He Y, Vaissie M, Li Y, Salas R, Amos CI"
-  year: "2017"
-  title: "Genome-wide imaging association study implicates functional activity and glial homeostasis of the caudate in smoking addiction"
-  venue: "BMC Genomics"
-  url: "https://www.ncbi.nlm.nih.gov/pubmed/?term=28927378"
-  id:  "PMID: 28927378"
 
 - ref: 03
   authors: "Li SX, Polacco MA, Gosselin BJ, Harrington LX, <strong>Titus AJ</strong>, Paydarfar JA"
