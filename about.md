@@ -11,7 +11,7 @@ sitemap:
 
 <span class="image left"><img src="{{ "/images/DATA_510x361.jpg" | absolute_url }}" alt="" /></span>
 
-I'm currently a PhD candidate at Dartmouth School of Graduate and Advanced Studies working in the [Christsensen Molecular Epidemiology Lab](http://christensen-lab.com). I'm part of the [Quantitative Biomedical Sciences program](https://dartmouth.edu/~qbs), where my training combines bioinformatics, biostatistics, epidemiology, machine learning, and deep learning to study disease. 
+I'm a PhD graduate from the Guarini School of Graduate and Advanced Studies at Dartmouth where I worked in the [Christsensen Molecular Epidemiology Lab](http://christensen-lab.com). I was part of the [Quantitative Biomedical Sciences program](https://dartmouth.edu/~qbs), where my training combined bioinformatics, biostatistics, epidemiology, machine learning, and deep learning to study disease. 
 
 When I'm not thinking about science, I spend my time outside. If you can't get ahold of me, I'm most likely lost in the woods somewhere having a blast.
 
@@ -24,4 +24,4 @@ When I'm not thinking about science, I spend my time outside. If you can't get a
 
 <span class="image left"><img src="{{ "/images/computer_collaboration_508x339.jpg" | absolute_url }}" alt="" /></span>
 
-This means that I collaborate widely with a range of scientists and clinicians. If you have an interesting idea or want to chat about an analysis you are working on, please feel free to reach out. 
+This means that I collaborate widely with a range of scientists and clinicians. If you have an interesting idea or want to chat about an analysis you are working on, please feel free to reach out.
