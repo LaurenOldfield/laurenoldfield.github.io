@@ -9,7 +9,7 @@ sitemap:
 ---
 ## About Alexander
 
-<span class="image left"><img src="{{ "/images/DATA_510x361.jpg" | absolute_url }}" alt="" /></span>
+<!-- <span class="image left"><img src="{{ "/images/DATA_510x361.jpg" | absolute_url }}" alt="" /></span> -->
 
 Coming soon...
 
@@ -19,6 +19,6 @@ Coming soon...
 Coming soon...  </p>
 </div>
 
-<span class="image left"><img src="{{ "/images/computer_collaboration_508x339.jpg" | absolute_url }}" alt="" /></span>
+<!-- <span class="image left"><img src="{{ "/images/computer_collaboration_508x339.jpg" | absolute_url }}" alt="" /></span> -->
 
 Coming soon...
