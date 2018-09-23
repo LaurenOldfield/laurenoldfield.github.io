@@ -5,7 +5,7 @@ date:   2017-9-14
 excerpt: "Coming soon..."
 image: "/images/DMGR.jpg"
 categories: publications
-tags: dna-methylation biostatistics breast-cancer
+tags: tag1 tag2
 
 ---
 
