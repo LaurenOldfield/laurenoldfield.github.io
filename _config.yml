@@ -1,7 +1,7 @@
 # Site
-title:              Alexander Titus, PhD
-bio:                'Biomedical Data Scientist & Molecular Epidemiologist'
-description:        "Quantitative biomedical sciences, cancer biology, and learning algorithms."
+title:              Lauren M. Oldfield, Ph.D.
+bio:                'Coming soon...'
+description:        "Coming soon..."
 locale:             en_US
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
@@ -51,15 +51,15 @@ disqus_shortname:   default
 
 # Social
 analytics-id:       UA-77527373-1
-twitter:            al3xandertitus
+twitter:            DrLMOldfield
 #facebook:           default
-instagram:          alexander.titus
-github:             alexandertitus
+#instagram:          
+#github:             alexandertitus
 
 # personal
-location:           Dartmouth College, Hanover, NH, USA
+location:           J. Craig Venter Institute, Rockville, MD, USA
 phone:              Unavailable
-email:              alexander@titusanalytics.com
+email:              loldfiel@jcvi.org
 
 # Gems
 gems:
